@@ -107,14 +107,95 @@ class InitializeParameters {
   external bool get progress;
   external void set progress(bool progress);
 
+  external int get defaultTiming;
+  external void set defaultTiming(int defaultTiming);
+
+  external bool get slideNumber;
+  external void set slideNumber(bool slideNumber);
+
   external bool get history;
   external void set history(bool history);
+
+  external bool get keyboard;
+  external void set keyboard(bool keyboard);
+
+  external bool get overview;
+  external void set overview(bool overview);
 
   external bool get center;
   external void set center(bool center);
 
+  external bool get touch;
+  external void set touch(bool touch);
+
+  external bool get loop;
+  external void set loop(bool loop);
+
+  external bool get rtl;
+  external void set rtl(bool rtl);
+
+  external bool get shuffle;
+  external void set shuffle(bool shuffle);
+
+  external bool get fragments;
+  external void set fragments(bool fragments);
+
+  external bool get embedded;
+  external void set embedded(bool embedded);
+
+  external bool get help;
+  external void set help(bool help);
+
+  external bool get showNotes;
+  external void set showNotes(bool showNotes);
+
+  external bool get autoPlayMedia;
+  external void set autoPlayMedia(bool autoPlayMedia);
+
+  external int get autoSlide;
+  external void set autoSlide(int autoSlide);
+
+  external bool get autoSlideStoppable;
+  external void set autoSlideStoppable(bool autoSlideStoppable);
+
+  external dynamic get autoSlideMethod;
+  external void set autoSlideMethod(dynamic autoSlideMethod);
+
+  external bool get mouseWheel;
+  external void set mouseWheel(bool mouseWheel);
+
+  external bool get hideAddressBar;
+  external void set hideAddressBar(bool hideAddressBar);
+
+  external bool get previewLinks;
+  external void set previewLinks(bool previewLinks);
+
   external String get transition;
   external void set transition(String transition);
+
+  external String get transitionSpeed;
+  external void set transitionSpeed(String transitionSpeed);
+
+  external String get backgroundTransition;
+  external void set backgroundTransition(String backgroundTransition);
+
+  external int get viewDistance;
+  external void set viewDistance(int viewDistance);
+
+  external String get parallaxBackgroundImage;
+  external void set parallaxBackgroundImage(String parallaxBackgroundImage);
+
+  external String get parallaxBackgroundSize;
+  external void set parallaxBackgroundSize(String parallaxBackgroundSize);
+
+  external int get parallaxBackgroundHorizontal;
+  external void set parallaxBackgroundHorizontal(int parallaxBackgroundHorizontal);
+
+  external int get parallaxBackgroundVertical;
+  external void set parallaxBackgroundVertical(int parallaxBackgroundVertical);
+
+  external String get display;
+  external void set display(String display);
 
   external List<DependencyParameters> get dependencies;
   external void set dependencies(List<DependencyParameters> dependencies);
