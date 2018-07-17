@@ -220,7 +220,9 @@ class DependencyParameters {
 }
 
 @JS()
+@anonymous
 class MathParameters {
+  external factory MathParameters();
   external String get mathjax;
   external void set mathjax(String mathjax);
 
