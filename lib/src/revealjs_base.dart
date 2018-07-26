@@ -50,7 +50,7 @@ external dynamic toggleHelp();
 
 // Change a config value at runtime
 @JS()
-external dynamic configure({controls: true});
+external dynamic configure([controls = true]);
 
 // Returns the present configuration options
 @JS()
