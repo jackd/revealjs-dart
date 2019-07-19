@@ -5,7 +5,8 @@ homepage: https://github.com/jackd/revealjs-dart
 author: Dominic Jack <thedomjack@gmail.com>
 
 environment:
-  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+  # sdk: '>=2.0.0-dev.68.0 <3.0.0'
+  sdk: '^2.0.0'
 
 dependencies:
   js: ^0.6.0
